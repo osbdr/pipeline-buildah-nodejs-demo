@@ -1,0 +1,12 @@
+name: Standard Pipeline
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  buildah:
+    runs-on: ubuntu-18.04
+    steps:
+    - name: build
+      run: buildah bud -t buildah-demo .
