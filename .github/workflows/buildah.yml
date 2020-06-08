@@ -1,4 +1,4 @@
-name: Standard Pipeline
+name: Buildah Pipeline
 
 on:
   push:
